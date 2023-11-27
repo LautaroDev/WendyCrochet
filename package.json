@@ -1,0 +1,30 @@
+{
+  "name": "wendycrochet",
+  "version": "1.0.0",
+  "description": "projecto ",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css",
+    "tarea": "gulp tarea",
+    "dev" :"gulp dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LautaroDev/WendyCrochet.git"
+  },
+  "keywords": [
+    "SASS",
+    "GULP"
+  ],
+  "author": "Lautaro Encalado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LautaroDev/WendyCrochet/issues"
+  },
+  "homepage": "https://github.com/LautaroDev/WendyCrochet#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.69.5"
+  }
+}
